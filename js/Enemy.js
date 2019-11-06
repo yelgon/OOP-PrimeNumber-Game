@@ -12,7 +12,8 @@ class Enemy {
         this.spot = enemySpot
         this.x = enemySpot * ENEMY_WIDTH
         this.y = -ENEMY_HEIGHT
-        this.enemyNumber = Math.floor(Math.random() * 48)
+        this.enemyNumber = Math.floor(Math.random() * 48 + 1)
+        // console.log(this.enemyNumber)
         this.domElement = document.createElement("img")
         this.domElement.src = "images/enemy"+ this.enemyNumber + ".png"
         this.domElement.style.position = "absolute"
@@ -26,7 +27,7 @@ class Enemy {
     }
 }
 
-// }
+// 
 //  TEST PRIME NUMBER
 // function test_prime(n)
 // {
