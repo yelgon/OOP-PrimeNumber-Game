@@ -13,7 +13,7 @@ let nextEnemySpot = enemies =>{
 
 let addBackground = root =>{
     let bg = document.createElement("img")
-    bg.src = "images/backgroundNumber1.png"
+    bg.src = "images/background5.png"
     bg.style.height = GAME_HEIGHT + "px"
     bg.style.width = GAME_WIDTH + "px"
     root.append(bg)
